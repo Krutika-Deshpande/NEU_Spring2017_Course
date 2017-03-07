@@ -2,10 +2,17 @@ Data Analysis Using Python Spring 2017 - Midterm
 
 Question1:
 Enron Scandal Summary:
+
+
 1. Sentiment Analysis of the content by Arnold John.
+
+
 2. Maximum mails sent 'from' and 'to' in the Enron Email Dataset.
-3. Most common words in the email body.
-4. Most common words in the email subject.
+
+
+3. Most common words in the email body and Subject.
+
+
 
 
 Question2:
