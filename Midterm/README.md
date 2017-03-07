@@ -2,10 +2,12 @@ Data Analysis Using Python Spring 2017 - Midterm
 
 Question1:
 Enron Scandal Summary:
+Arnold John has sent the maximum number of mails in the company.
+Hence the analysis is done on the sent emails by Arnold John.
 
 
-1. Sentiment Analysis of the content by Arnold John.
-
+1. Sentiment Analysis of the content.
+ 
 
 2. Maximum mails sent 'from' and 'to' in the Enron Email Dataset.
 
