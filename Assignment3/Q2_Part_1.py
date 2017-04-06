@@ -26,7 +26,7 @@ df = pd.read_csv('\\Users\\kruts\\DataAnalysis4Python_Spring17\\Assignments\\Ass
 # Calculating the average compensation for different departments within a organization and sorting them by maximum value.
 DF_compensation = df.groupby(['Organization Group', 'Department'])['Total Compensation'].mean().reset_index().sort_values(["Organization Group","Total Compensation"],ascending=[True,False])
 DF_compensation.set_index('Organization Group',inplace = True)
-DF_compensation.head(20)
+print(DF_compensation.head())
 
 
 # In[35]:

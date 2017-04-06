@@ -40,7 +40,7 @@ Frame_Collisions = DataFrame()
 Frame_Collisions['MANHATTAN'] = df[df['BOROUGH']=='MANHATTAN'].groupby(['MONTH'],sort = False)['UNIQUE KEY'].count()
 Frame_Collisions['NYC'] = df.groupby(['MONTH'],)['UNIQUE KEY'].count()
 Frame_Collisions['PERCENTAGE']= Frame_Collisions['MANHATTAN']/Frame_Collisions['NYC']
-Frame_Collisions.head(13).reset_index()
+print(Frame_Collisions.head(13).reset_index())
 
 
 # In[132]:

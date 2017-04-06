@@ -40,7 +40,7 @@ DF_Vehcile_Involved['Two_Vehicles_Involved'] = df1['VEHICLE 2 TYPE'] - df1['VEHI
 DF_Vehcile_Involved['Three_Vehicles_Involved'] = df1['VEHICLE 3 TYPE'] - df1['VEHICLE 4 TYPE'] # count of three Vehicles involved
 DF_Vehcile_Involved['More_Vehicle_Involved'] = df1['VEHICLE 4 TYPE'] #count of more Vehicles involved
 DF_Vehcile_Involved.set_index('BOROUGH', inplace = True)
-DF_Vehcile_Involved
+print(DF_Vehcile_Involved.head())
 
 
 # In[65]:

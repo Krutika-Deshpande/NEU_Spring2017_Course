@@ -41,6 +41,7 @@ DF_Result['Total Compensation'] = df1.groupby(['Job Family'])['Total Compensatio
 DF_Result['Percent_Total_Benefits'] = (DF_Result['Total Benefits']/DF_Result['Total Compensation']) * 100
 #Displaying the top 5 Job Families based on the highest percent_total_benefits
 DF_Result.sort_values('Percent_Total_Benefits',ascending = False)[0:5]
+print(DF_Result.head())
 
 
 # In[53]:

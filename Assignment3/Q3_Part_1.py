@@ -24,7 +24,7 @@ df1['score'] = df1['innings1_runs'].where(df1['home'] == df1['innings1'], df1['i
 DF_Result = DataFrame()
 #Calculating the average score of each team
 DF_Result['avg_score'] = df1.groupby('home')['score'].mean()
-DF_Result.reset_index().head()
+print(DF_Result.reset_index().head())
 
 
 # In[22]:
